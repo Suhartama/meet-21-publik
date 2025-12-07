@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: rgb(247, 213, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+#card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#card .title {
+    margin-top: 25px;
+}
+
+#card .title h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+#card .preparation ul, #card .content ul, #card .content ol {
+    list-style-position: inside;
+}
+
+
+#card .preparation {
+    margin-top: 25px;
+    background-color: rgb(247, 213, 168);
+    padding: 15px;
+    border-radius: 10px;
+    color: brown;
+}
+
+#card .preparation h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#card .content {
+    margin-top: 20px;
+}
+
+#card .content h2 {
+    margin-bottom: 10px;
+}
+
+#card hr {
+    margin-top: 20px;
+}
+
+#card a {
+    display: block;
+    margin-top: 10px;
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+#card a:hover {
+    background-color: aliceblue;
+    color: grey;
+}
